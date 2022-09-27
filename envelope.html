@@ -7,7 +7,7 @@
     <title>Envelope SVG</title>
 </head>
 <body>
-    <svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280">
+    <svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 280">
         <!--Rounded corner Rectangle-->
         <rect x="11" y="11" rx="30" ry="30" width="380" height="240" style="fill:none; stroke:black; stroke-width:20;"/>
         <!--Rounded corner Rectangle End-->
@@ -28,6 +28,12 @@
         <line x1="380" y1="20" x2="192" y2="121" stroke="black" stroke-width="20" stroke-linecap="round"/>
         <!--Half diagonal-2 (line-2) End-->
 
+    </svg>
+    <!--<div class="ext-svg" style="width: 20%">
+        <img src="./images/envelope.svg" alt="envelope">
+    </div>-->
+    <svg>
+        <use xlink:href="../images/envelope.svg#envelope"></use>
     </svg>
 </body>
 </html>

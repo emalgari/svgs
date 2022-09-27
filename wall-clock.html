@@ -7,7 +7,7 @@
     <title>Wall-Clock SVG</title>
 </head>
 <body>
-    <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 400 400">
 
         <!--Circle-->
         <circle cx="200" cy="200" r="200" stroke="none" stock-width="10"/>
@@ -21,6 +21,12 @@
         <line x1="200" y1="100" x2="200" y2="200" stroke="white" stroke-width="40" stroke-linecap="round"/>
         <!--Vertical line End-->
         
-      </SVG>
+    </svg>
+    <!--<div class="ext-svg" style="width: 20%;">
+        <img src="./images/clock.svg" alt="clock">
+    </div>-->
+    <svg>
+        <use xlink:href="../images/clock.svg#clock-svg"></use>
+    </svg>
 </body>
 </html>
